@@ -1,0 +1,18 @@
+{
+  "name": "rogalddl-scraper",
+  "version": "0.1.0",
+  "description": "Local, auditable YouTube catalog for public and indexed Rogal DDL music",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "rogalddl": "./rogalddl.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/check-syntax.mjs",
+    "test:all": "./test-all.sh"
+  }
+}

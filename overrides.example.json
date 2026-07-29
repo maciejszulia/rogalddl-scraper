@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "keep": [
+    ["youtube-id-version-a", "youtube-id-version-b"]
+  ],
+  "merge": [
+    {
+      "winner": "preferred-youtube-id",
+      "copies": ["duplicate-youtube-id"],
+      "reason": "manually verified as the same master"
+    }
+  ],
+  "reject": [
+    {
+      "id": "false-match-youtube-id",
+      "reason": "manually verified false match"
+    }
+  ]
+}
