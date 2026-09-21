@@ -28,9 +28,11 @@ The project is designed to:
 - invoke external programs without a shell;
 - redact common secret-bearing fields from artifacts and diagnostics;
 - reject unsafe configuration ownership, permissions and symlinks;
-- preserve the last valid catalog when a scan fails or is interrupted.
+- preserve the previous catalog when a scan fails before publication and recover interrupted directory replacements.
 
 A report showing that any of these properties can be bypassed is security-relevant.
+A later checkpoint cleanup or playback error can occur after a new catalog is
+published; command failure alone does not identify the current generation.
 
 ## Disclosure process
 
