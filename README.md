@@ -3,7 +3,7 @@
 A local Node.js tool that turns public, indexed Rogal DDL listings from YouTube
 into a catalog and MPV playlist. It records source provenance, duplicate decisions
 and cases needing review. The repository is `rogalddl-scraper`; the command is
-`rogalddl`. Maciej Szulia coordinates this AI-assisted project.
+`rogalddl`.
 
 - Exact video IDs are grouped. Automatic deduplication needs fingerprint evidence
   for different IDs and keeps explicit variants separate; manual overrides can
