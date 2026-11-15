@@ -20,7 +20,7 @@ step. Cloning needs network access; the remaining commands use local synthetic
 fixtures without querying YouTube, downloading media or starting a real player.
 
 ```bash
-git clone https://gitlab.com/maciejszulia/rogalddl-scraper.git
+git clone https://github.com/maciejszulia/rogalddl-scraper.git
 cd rogalddl-scraper
 ./test-all.sh
 node ./rogalddl.mjs --help
